@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎰 Casino - moekyawaung-microsoft</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div class="casino-container">
+        <header>
+            <h1>🎰 CASINO SLOTS</h1>
+            <div class="balance">Balance: <span id="balance">5000</span> Kyats</div>
+        </header>
+
+        <div class="slots">
+            <div class="reel" id="reel1">🍒</div>
+            <div class="reel" id="reel2">🍒</div>
+            <div class="reel" id="reel3">🍒</div>
+        </div>
+
+        <div class="controls">
+            <button id="bet10">Bet 10</button>
+            <button id="bet50" class="active">Bet 50</button>
+            <button id="bet100">Bet 100</button>
+            <button id="spinBtn" class="spin-btn">SPIN 🎰</button>
+            <button id="autoBtn">Auto Spin</button>
+        </div>
+
+        <div class="result" id="result"></div>
+        <div class="jackpot">🎉 JACKPOT: 50,000 Kyats</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
